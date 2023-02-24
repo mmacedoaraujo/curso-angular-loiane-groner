@@ -5,7 +5,6 @@ import { CursoDeDetalheComponent } from './curso-de-detalhe/curso-de-detalhe.com
 import { CursosService } from './cursos.service';
 
 
-
 @NgModule({
   declarations: [
     CursosComponent,
@@ -18,6 +17,6 @@ import { CursosService } from './cursos.service';
     CursosComponent,
     CursoDeDetalheComponent
   ],
-  providers: [ CursosService ]
+  providers: [CursosService]
 })
 export class CursosModule { }
